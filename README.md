@@ -1,5 +1,12 @@
 # Textbook-Finder
-## This project consist of a Web Application design that uses an existing API to pull descriptive data about textbooks. It includes an ERD diagram, class diagram, several wire-frame sketches that illustrates the basic concept and utilities of the application. 
+
+## Concept
+## This project consist of a Web Application design to be hosted on a server and makes use of an existing API to pull descriptive data about textbooks. It includes an ERD diagram, class diagram, several wire-frame sketches that illustrates the basic concept and utilities of the application. 
+
+## Basic Function 
+
+![Process](https://user-images.githubusercontent.com/20195657/89743180-62a0c480-da55-11ea-964e-86f0f3a718f7.png)
+
 
 ## Database Diagrams <h2>
 
