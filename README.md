@@ -28,7 +28,6 @@
 
 ## UML Diagram
 ![UML Diagram](https://user-images.githubusercontent.com/20195657/90346429-c3904580-dfdd-11ea-9d2a-3ccf9cf96ee0.png)
-
 # Textbook Finder Application 
 
 ## Functional Requirements: The application must…
