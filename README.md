@@ -24,3 +24,10 @@
 
 ## 3)
 ![Sketch4](https://user-images.githubusercontent.com/20195657/89742751-85c97500-da51-11ea-8482-b5930437c8e5.png)
+
+
+## UML Diagram
+![UML Diagram](https://user-images.githubusercontent.com/20195657/90346429-c3904580-dfdd-11ea-9d2a-3ccf9cf96ee0.png)
+
+
+
