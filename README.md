@@ -66,5 +66,22 @@
 -	Given I have a book in mind that I want to find for purchase, and I attempt to search for the book by name or ISBN number, a list of relevant results is displayed in which I can make a selection to display the location of a retailer, or use links to other applications to read the book to me for example. 
 
 
+## Requirement List
+
+1.0	Search for textbooks by entering a query
+  1.1	Allow user to enter query into a search mechanism
+  1.2	Allow user to select filters against the query to limit the number of results
+  1.3	Filter by category, subject or Title
+2.0	Display a list of results in a scroll-down or scroll-up fashion
+  2.1	Click on Description and retailer hyperlinks
+  2.2	Description tab opens a separate popup windows with product description 
+  2.3	Allow to select a book to see description and retailer link 
+  2.4	Click on the link to redirect to retailers’ site
+3.0	Display the location of a retailer nearby (map)
+  3.1	Show a location icon were the address of the retail store is on the map
+  3.2	Click on the map icon to get directions to retailer store
+
+
+
 
 
