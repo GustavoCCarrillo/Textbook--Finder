@@ -9,12 +9,17 @@
 
 ![Process](https://user-images.githubusercontent.com/20195657/89743180-62a0c480-da55-11ea-964e-86f0f3a718f7.png)
 
+***
 
 ## Database Diagrams <h2>
 
 ![ERDDiagram](https://user-images.githubusercontent.com/20195657/89742739-74806880-da51-11ea-91dc-3aaa54e16cf8.png)
 
+**
+
 ![BooksDB pdf (1)](https://user-images.githubusercontent.com/20195657/89743017-fffaf900-da53-11ea-9fb1-be9eec73c353.png)
+
+*** 
 
 ## Wire-Frames: DRAFT <h2> 
 
@@ -27,9 +32,13 @@
 ## 3)
 ![Sketch4](https://user-images.githubusercontent.com/20195657/89742751-85c97500-da51-11ea-8482-b5930437c8e5.png)
 
+***
 
 ## UML Diagram
 ![UML Diagram](https://user-images.githubusercontent.com/20195657/90346429-c3904580-dfdd-11ea-9d2a-3ccf9cf96ee0.png)
+
+***
+
 # Textbook Finder Application 
 
 ## Functional Requirements: The application must…
@@ -47,12 +56,15 @@
 -	Working in cohesion with an external API to render data to user.
 -	A one- or two-page application, one: to display results, two: to display a bigger view of the selected result with product description, links and map.
 
+***
+
                 Actors: College student, Professor, Staff and Other users (non-students or faculty or Staff)
 ## User-Stories
 1)	As a college student, I want to be able to search for books by Name or ISBN number so that I can get a list of relevant results and links with option to click and visit the publisher’s/retailer’s website.
 2)	As a professor, I need to be able to enter the name or ISBN number of a textbook into a search mechanism so that I can see a list of books to choose from to aid in future assignments.
 3)	As an everyday user, I need to be able to search for any kind of book or publication with links to other resources such as ReadMyBook (Richard Lee’s project) for the visually impaired and/or store locator (using google maps).
 
+***
 
 ## Use Case – Actor: College Student – Search for assigned textbook
 -	Given I have a textbook to search for and I have the name and/or ISBN number, when I attempt to search for the name or number of the textbook, a list of results should be displayed with descriptive information, external links for purchasing options and a map to locate nearby retailers.
@@ -66,6 +78,7 @@
 ## Use Case – Actor:  Everyday user (non-student) – Search for a book to read
 -	Given I have a book in mind that I want to find for purchase, and I attempt to search for the book by name or ISBN number, a list of relevant results is displayed in which I can make a selection to display the location of a retailer, or use links to other applications to read the book to me for example. 
 
+***
 
 ## Requirement List
 
