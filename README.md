@@ -35,7 +35,8 @@
 ***
 
 ## UML Diagram
-![UML Diagram](https://user-images.githubusercontent.com/20195657/90346429-c3904580-dfdd-11ea-9d2a-3ccf9cf96ee0.png)
+
+![UML Diagram(1)](https://user-images.githubusercontent.com/20195657/90574316-79d66500-e16d-11ea-8fa4-e4e169a4a160.png)
 
 ***
 
