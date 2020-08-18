@@ -3,6 +3,8 @@
 ## Concept
 ## This project consist of a Web Application design to be hosted on a server and makes use of an existing API to pull descriptive data about textbooks. It includes an ERD diagram, class diagram, several wire-frame sketches that illustrate the basic concept and useability of the application. In the simplest form, the application will retrieve a list of textbooks to be displayed to the user with descriptive information and direct link to the publisher/retailer. 
 
+*** 
+
 ## Basic Connectivity 
 
 ![Process](https://user-images.githubusercontent.com/20195657/89743180-62a0c480-da55-11ea-964e-86f0f3a718f7.png)
@@ -76,8 +78,8 @@
   - 2.2	Description tab opens a separate popup windows with product description 
   - 2.3	Allow to select a book to see description and retailer link 
   - 2.4	Click on the link to redirect to retailers’ site
-- 3.0	Display the location of a retailer nearby (map)
-  - 3.1	Show a location icon were the address of the retail store is on the map
+- 3.0	Display the location of a retailer (map)
+  - 3.1	Show the location icon of the retailer based on its address.
   - 3.2	Click on the map icon to get directions to retailer store
 
 
