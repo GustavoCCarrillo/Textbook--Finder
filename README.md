@@ -31,7 +31,6 @@
 # Textbook Finder Application 
 
 ## Functional Requirements: The application must…
--	Have an easy-to-follow layout: search mechanism, filters, display area, locator
 -	Search for books using web resources such as an external API
 -	Allow user to enter query into a search mechanism
 -	Allow user to select filters against the query to limit the number of results
