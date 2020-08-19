@@ -8,11 +8,11 @@
 # Table of Contents 
 - [Basic Connectivity](#bconnect)
 - [Database Diagrams](#dbdia)
-- [Wire-Frames](wf)
-- [UML Diagram](umldia)
-- [User Stories](userstory)
-- [Use Cases](usacase)
-- [Requirements](reqlist)
+- [Wire-Frames](#wf)
+- [UML Diagram](#umldia)
+- [User Stories](#userstory)
+- [Use Cases](#usacase)
+- [Requirements](#reqlist)
 
 ***
 
