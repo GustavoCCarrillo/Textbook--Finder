@@ -11,7 +11,7 @@
 - [Wire-Frames](#wf)
 - [UML Diagram](#umldia)
 - [User Stories](#userstory)
-- [Use Cases](#usacase)
+- [Use Cases](#usecase)
 - [Requirements](#reqlist)
 
 ***
