@@ -65,16 +65,17 @@
 ***
 
 <a name="usecase"></a>
-## Use Case – Actor: College Student – Search for assigned textbook
+## Use Cases
+### Use Case – Actor: College Student – Search for assigned textbook
 -	Given I have a textbook to search for and I have the name and/or ISBN number, when I attempt to search for the name or number of the textbook, a list of results should be displayed with descriptive information, external links for purchasing options and a map to locate nearby retailers.
 
-## Use Case – Actor: College professor – Search for reference material 
+### Use Case – Actor: College professor – Search for reference material 
 -	As a professor, given I have a list of required textbooks passed down by the department chair, when I attempt to search for reference material through the use category filters, a list of relevant textbooks is displayed with descriptive information based on the category selected. (this should be a list of results of free material to use as reference) 
 
-## Use Case – Actor:  Everyday user (staff) – Searching for a book to share
+### Use Case – Actor:  Everyday user (staff) – Searching for a book to share
 -	Given I have a book in mind to search for, and I search for the title by a specific name or ISBN number, I get a list of results that I can scroll through so that I can select a title and share it with social media such as Facebook, Tweeter or Instagram. 
 
-## Use Case – Actor:  Everyday user (non-student) – Search for a book to read
+### Use Case – Actor:  Everyday user (non-student) – Search for a book to read
 -	Given I have a book in mind that I want to find for purchase, and I attempt to search for the book by name or ISBN number, a list of relevant results is displayed in which I can make a selection to display the location of a retailer, or use links to other applications to read the book to me for example. 
 
 ***
