@@ -81,22 +81,22 @@
 ***
 
 <a name="reqlist"></a>
-## Requirements - System shall..
+## Requirements 
 
-| ID |  Requirement List                                                              |Test Method|
+| ID |  Requirement List - System shall..                                             |Test Method|
 |----|--------------------------------------------------------------------------------|-----------|
-|1.0 |	Search for textbooks by entering a query                                      |           |
-|1.1 |	Allow user to enter a query into a search mechanism                           |           |
-|1.2 |	Allow user to select filters against the query to limit the number of results |           |
-|1.3 |	Filter by category, subject or Title                                          |           |
-|2.0 |	Display a list of results in a scroll-down or scroll-up fashion               |           |
-|2.1 |	Click on Description and retailer hyperlinks                                  |           |
-|2.2 |	Description tab opens a separate popup windows with product description       |           |
-|2.3 |	Allow to select a book to see description and retailer link                   |           |
-|2.4 |	Click on the link to redirect to retailers’ site                              |           |
-|3.0 |	Display the location of a retailer (map)                                      |           |
-|3.1 |	Show the location icon of the retailer based on its address.                  |           |
-|3.2 |	Click on the map icon to get directions to retailer store                     |           |
+|1.0 |	Prompt the user to search for textbooks                                       |Inspection |
+|1.1 |	Allow user to enter a query into a search mechanism                           |Test       |
+|1.2 |	Allow user to select filters against the query to limit the number of results |Demo       |
+|1.3 |	Filter by category, subject or Title                                          |Test       |
+|2.0 |	Display a list of results in a scroll-down or scroll-up fashion               |Inspection |
+|2.1 |	Allow user to select a book to see description and retailer link              |Demo       |
+|2.2 |	Description tab opens a separate popup window with product description        |Demo       |
+|2.3 |	Allow user to select description and retailer hyperlinks                      |Test       |
+|2.4 |	Redirect user to retailers’ site                                              |Demo       |
+|3.0 |	Display a map with the location of nearby retailers                           |Inspection |
+|3.1 |	Let the user select a retailer from the map                                   |Demo       |
+|3.2 |	Display retailer geographical location, phone, and hours of operation         |Inspection |
 
 
 ***
