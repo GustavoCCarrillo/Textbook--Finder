@@ -6,8 +6,8 @@
 *** 
 
 # Table of Contents 
-- [Basic Connectivity](bconnect)
-- [Database Diagrams](dbdia)
+- [Basic Connectivity](#bconnect)
+- [Database Diagrams](#dbdia)
 - [Wire-Frames](wf)
 - [UML Diagram](umldia)
 - [User Stories](userstory)
@@ -16,7 +16,7 @@
 
 ***
 
-<a name="bconnect"></a>
+# <a name="bconnect"></a>
 ## Basic Connectivity 
 
 ![Process](https://user-images.githubusercontent.com/20195657/89743180-62a0c480-da55-11ea-964e-86f0f3a718f7.png)
