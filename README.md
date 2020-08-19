@@ -76,7 +76,7 @@
 -	Given I have a book in mind to search for, and I search for the title by a specific name or ISBN number, I get a list of results that I can scroll through so that I can select a title and share it with social media such as Facebook, Tweeter or Instagram. 
 
 ### Use Case – Actor:  Everyday user (non-student) – Search for a book to read
--	Given I have a book in mind that I want to find for purchase, and I attempt to search for the book by name or ISBN number, a list of relevant results is displayed in which I can make a selection to display the location of a retailer, or use links to other applications to read the book to me for example. 
+-	Given I have a book in mind that I want to find for purchase, and I attempt to search for the book by name or ISBN number, a list of relevant results is displayed in which I can make a selection to display the location of a retailer, or use links to other applications such as: application that read text outloud. 
 
 ***
 
