@@ -83,7 +83,7 @@
 <a name="reqlist"></a>
 ## Requirements
 
-| ID |  Requirement List                                                              |                |
+| ID |  Requirement List                                                                             |
 |----|--------------------------------------------------------------------------------|
 |1.0 |	Search for textbooks by entering a query                                      |
 |1.1 |	Allow user to enter query into a search mechanism                             |
