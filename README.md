@@ -83,23 +83,39 @@
 <a name="reqlist"></a>
 ## Requirements 
 
-| ID |  Requirement List - System shall..                                             |Test Method|
-|----|--------------------------------------------------------------------------------|-----------|
-|1.0 |	Prompt the user to search for textbooks                                       |Inspection |
-|1.1 |	Allow user to enter a query into a search mechanism                           |Test       |
-|1.2 |	Allow user to select filters against the query to limit the number of results |Demo       |
-|1.3 |	Filter by category, subject or Title                                          |Test       |
-|2.0 |	Display a list of results in a scroll-down or scroll-up fashion               |Inspection |
-|2.1 |	Allow user to select a book to see description and retailer link              |Demo       |
-|2.2 |	Description tab opens a separate popup window with product description        |Demo       |
-|2.3 |	Allow user to select description and retailer hyperlinks                      |Test       |
-|2.4 |	Redirect user to retailers’ site                                              |Demo       |
-|3.0 |	Display a map with the location of nearby retailers                           |Inspection |
-|3.1 |	Let the user select a retailer from the map                                   |Demo       |
-|3.2 |	Display retailer geographical location, phone, and hours of operation         |Inspection |
+| ID |  Requirement List - System shall..                                             |Test Method|Test ID|
+|----|--------------------------------------------------------------------------------|-----------|-------|
+|1.0 |	Prompt the user to search for textbooks                                       |Inspection |T1     |
+|1.1 |	Allow user to enter a query into a search mechanism                           |Test       |T2     |
+|1.2 |	Allow user to select filters against the query to limit the number of results |Demo       |T3     |
+|1.3 |	Filter by category, subject or Title                                          |Test       |T4     |
+|2.0 |	Display a list of results in a scroll-down or scroll-up fashion               |Inspection |T5     |
+|2.1 |	Allow user to select a book to see description and retailer link              |Demo       |T6     |
+|2.2 |	Description tab opens a separate popup window with product description        |Demo       |T7     |
+|2.3 |	Allow user to select description and retailer hyperlinks                      |Test       |T8     |
+|2.4 |	Redirect user to retailers’ site                                              |Demo       |T9     |
+|3.0 |	Display a map with the location of nearby retailers                           |Inspection |T10    |
+|3.1 |	Let the user select a retailer from the map                                   |Demo       |T11    |
+|3.2 |	Display retailer geographical location, phone, and hours of operation         |Inspection |T12    |
 
 
 ***
+
+
+| ID |  Test Table                                                                    |Status     |
+|----|--------------------------------------------------------------------------------|-----------|
+|T1  |	Verify search mechanism is active. Blinking cursor                            |Not Tested |
+|T2  |	Check the search box. Enter text                                              |Not Tested |
+|T3  |	Check filter boxes are selectable                                             |Not Tested |
+|T4  |	Verify category box is selectable                                             |Not Tested |
+|T5  |	Verify search result populate on display area                                 |Not Tested |
+|T6  |	Check item results are selectable                                             |Not Tested |
+|T7  |	Check that a second window pops up                                            |Not Tested |
+|T8  |	Verify hyperlinks and description items are valid                             |Not Tested |
+|T9  |	Verify hyperlink redirects to retailer site                                   |Not Tested |
+|T10 |	Verify retailers are showing up on the map                                    |Not Tested |
+|T11 |	Verify that each item selected populates on the map                           |Not Tested |
+|T12 |	Check the retialer's business information is accurate                         |Not Tested |
 
 
 ## Functional Requirements: The application must…
