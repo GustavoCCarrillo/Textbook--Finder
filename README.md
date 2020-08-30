@@ -5,7 +5,7 @@
 
 *** 
 # <a name="tcontent"></a>
-# Table of Contents 
+# Table of Content 
 
 - [Basic Connectivity](#bconnect)
 - [Database Diagrams](#dbdia)
