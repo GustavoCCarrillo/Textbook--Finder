@@ -33,6 +33,7 @@
 - Once the search has concluded, by default the results will populate sorted by Author. 
 - This page will display 50 results at a time to minimize the amount of content the user sees.
 - When a result is selected, the user will be directed to another page with links to retailers.
+- This page also gives the user the option to search again  "New Search" or return to the previous page "Go Back"
 - This example selects the " SQL 10 Minutes, Sams Teach Yourself " result.
 
 
