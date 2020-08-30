@@ -45,8 +45,9 @@
 
 ## List of Retailers 
 
-- This page displays a list of retailers matching the name of Title as an example.
-- Each retailer will be clickable redirecting the user to the seller's site. 
+- This page displays a list of retailers matching the selection. 
+- Each retailer will be clickable redirecting the user to the seller's site for further processing. 
+- The example displays a list of retailers matching the query " T-SQL 10 Minutes " where author is " Ben Forta "
 
 
 <img width="342" alt="PrototypeFourthPage" src="https://user-images.githubusercontent.com/20195657/91648653-df084100-ea1e-11ea-81d0-d6b6f14318b8.PNG">
