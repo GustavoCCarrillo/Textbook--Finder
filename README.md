@@ -14,7 +14,7 @@
 - [User Stories](#userstory)
 - [Use Cases](#usecase)
 - [Requirements](#reqlist)
-- [Prototype](src/Prototype/README.prototype.md)
+- [Prototype](Prototype/README.prototype.md)
 
 ***
 
