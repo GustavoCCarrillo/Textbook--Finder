@@ -4,8 +4,9 @@
 ## This project consist of a Web Application design to be hosted on a server and makes use of an existing API to pull descriptive data about textbooks. It includes an ERD diagram, class diagram, several wire-frame sketches that illustrate the basic concept and useability of the application. In the simplest form, the application will retrieve a list of textbooks to be displayed to the user with descriptive information and direct link to the publisher/retailer. 
 
 *** 
-
+# <a name="tcontent"></a>
 # Table of Contents 
+
 - [Basic Connectivity](#bconnect)
 - [Database Diagrams](#dbdia)
 - [Wire-Frames](#wf)
@@ -18,6 +19,7 @@
 
 # <a name="bconnect"></a>
 ## Basic Connectivity 
+[table of content](#tcontent)
 
 ![Process](https://user-images.githubusercontent.com/20195657/89743180-62a0c480-da55-11ea-964e-86f0f3a718f7.png)
 
@@ -82,6 +84,7 @@
 
 <a name="reqlist"></a>
 ## Requirements 
+[table of content](#tcontent)
 
 | ID |  Requirement List - System shall..                                             |Test Method|Test ID|
 |----|--------------------------------------------------------------------------------|-----------|-------|
