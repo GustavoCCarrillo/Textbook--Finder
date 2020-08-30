@@ -31,7 +31,7 @@
 ## Result Page by Author 
 
 - Once the search has concluded, by default the results will populate sorted by Author. 
-- This page will display 100 results at a time to minimize the amount of content the user sees.
+- This page will display 50 results at a time to minimize the amount of content the user sees.
 - When a result is selected, the user will be directed to another page with links to retailers.
 - This example selects the " SQL 10 Minutes, Sams Teach Yourself " result.
 
