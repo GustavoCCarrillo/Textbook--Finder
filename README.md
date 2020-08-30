@@ -18,7 +18,7 @@
 ***
 
 # <a name="bconnect"></a>
-## Basic Connectivity 
+## Basic Connectivity <h2>
 [table of content](#tcontent)
 
 ![Process](https://user-images.githubusercontent.com/20195657/89743180-62a0c480-da55-11ea-964e-86f0f3a718f7.png)
@@ -27,6 +27,7 @@
 
 <a name="dbdia"></a>
 ## Database Diagrams <h2>
+[table of content](#tcontent)
 
 ![ERDDiagram](https://user-images.githubusercontent.com/20195657/89742739-74806880-da51-11ea-91dc-3aaa54e16cf8.png)
 
@@ -38,6 +39,7 @@
 
 <a name="wf"></a>
 ## Wire-Frames: DRAFT <h2> 
+[table of content](#tcontent)
 
 ## 1) 
 ![Sketch2](https://user-images.githubusercontent.com/20195657/89742744-7c400d00-da51-11ea-8c4c-fd2be526c949.png)
@@ -51,7 +53,8 @@
 ***
 
 <a name="umldia"></a>
-## UML Diagram
+## UML Diagram <h2>
+[table of content](#tcontent)
 
 ![UML Diagram(1)](https://user-images.githubusercontent.com/20195657/90574316-79d66500-e16d-11ea-8fa4-e4e169a4a160.png)
 
@@ -59,7 +62,9 @@
 
                 Actors: College student, Professor, Staff and Other users (non-students or faculty or Staff)
 <a name="userstory"></a>
-## User-Stories
+## User-Stories <h2>
+[table of content](#tcontent)
+  
 1)	As a college student, I want to be able to search for books by Name or ISBN number so that I can get a list of relevant results and links with option to click and visit the publisher’s/retailer’s website.
 2)	As a professor, I need to be able to enter the name or ISBN number of a textbook into a search mechanism so that I can see a list of books to choose from to aid in future assignments.
 3)	As an everyday user, I need to be able to search for any kind of book or publication with links to other resources such as ReadMyBook (Richard Lee’s project) for the visually impaired and/or store locator (using google maps).
@@ -67,7 +72,8 @@
 ***
 
 <a name="usecase"></a>
-## Use Cases
+## Use Cases <h2>
+  
 ### Use Case – Actor: College Student – Search for assigned textbook
 -	Given I have a textbook to search for and I have the name and/or ISBN number, when I attempt to search for the name or number of the textbook, a list of results should be displayed with descriptive information, external links for purchasing options and a map to locate nearby retailers.
 
@@ -83,7 +89,7 @@
 ***
 
 <a name="reqlist"></a>
-## Requirements 
+## Requirements <h2>
 [table of content](#tcontent)
 
 | ID |  Requirement List - System shall..                                             |Test Method|Test ID|
