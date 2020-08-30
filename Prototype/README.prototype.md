@@ -3,6 +3,12 @@
 # Textbook-Finder Prototype 
 
 ***
+
+### Use Case:
+- As a college student, I want the ability to search for books by title, or isbn number
+  so that I can have a list of different retailers to choose from with prices to compare. 
+
+***
 ## Search Page
 
 - Enter a ISBN number or Title of a book into input fields to begin search.
