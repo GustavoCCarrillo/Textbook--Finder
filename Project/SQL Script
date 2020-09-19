@@ -5,34 +5,34 @@ CREATE DATABASE TextbooksDB
 USE TextbooksDB
 
 
-DROP TABLE IF EXISTS TextbookPuplishers
-CREATE TABLE TextbookPublishers
+DROP TABLE IF EXISTS Textbook_Puplishers
+CREATE TABLE Textbook_Publishers
 (
-  publisher_id INT IDENTITY NOT NULL, 
-  publisher_name NVARCHAR(200) NOT NULL,
-  publisher_website NVARCHAR(MAX)
+  Publisher_id INT IDENTITY NOT NULL, 
+  Publisher_name NVARCHAR(200) NOT NULL,
+  Publisher_website NVARCHAR(MAX)
 
-  CONSTRAINT PK_TextbookPublishers PRIMARY KEY 
-  (publisher_id)
+  CONSTRAINT PK_Textbook_Publishers PRIMARY KEY 
+  (Publisher_id)
 
 );
 
 DROP TABLE IF EXISTS Textbooks
 CREATE TABLE Textbooks
 (
-  textbook_id    INT IDENTITY NOT NULL, 
-  title          NVARCHAR(200) NOT NULL, 
-  edition        NVARCHAR(5),
-  isbn           NVARCHAR(50) NULL, 
-  published_date DATE NULL, 
-  publisher_id   INT NULL, 
+  Textbook_id    INT IDENTITY NOT NULL, 
+  Title          NVARCHAR(200) NOT NULL, 
+  Edition        NVARCHAR(5),
+  Isbn           NVARCHAR(50) NULL, 
+  Published_date DATE NULL, 
+  Publisher_id   INT NULL, 
 
   CONSTRAINT PK_Textbooks PRIMARY KEY CLUSTERED
-  (textbook_id),
+  (Textbook_id),
 
   CONSTRAINT FK_Texbook_Publisher FOREIGN KEY
-  (publisher_id) 
-        REFERENCES TextbookPublishers(publisher_id)
+  (Publisher_id) 
+        REFERENCES Textbook_Publishers(Publisher_id)
 );
 
 
@@ -40,19 +40,19 @@ CREATE TABLE Textbooks
 DROP TABLE IF EXISTS Authors
 CREATE TABLE Authors
 ( 
-  author_id   INT IDENTITY NOT NULL,
-  first_name  NVARCHAR(100) NOT NULL, 
-  last_name   NVARCHAR(100) NULL,
+  Author_id   INT IDENTITY NOT NULL,
+  First_name  NVARCHAR(100) NOT NULL, 
+  Last_name   NVARCHAR(100) NULL,
 
   CONSTRAINT PK_Authors PRIMARY KEY CLUSTERED
-  ( author_id )
+  ( Author_id )
 );
 
 DROP TABLE IF EXISTS Textbook_Authors
 CREATE TABLE Textbook_Authors -- Many to Many relationship between textbooks and authors
 (
-  textbook_id  INT NOT NULL, 
-  author_id INT NOT NULL, 
+  Textbook_id  INT NOT NULL, 
+  Author_id INT NOT NULL, 
 
   CONSTRAINT PK_Textbook_Authors PRIMARY KEY
   (
@@ -71,45 +71,45 @@ CREATE TABLE Textbook_Authors -- Many to Many relationship between textbooks and
 );	
 
 
-DROP TABLE IF EXISTS Categories
-CREATE TABLE Categories 
+DROP TABLE IF EXISTS Category
+CREATE TABLE Category 
 (
-  category_id   INT IDENTITY NOT NULL,
-  categories    NVARCHAR(255) NOT NULL
+  Category_id   INT IDENTITY NOT NULL,
+  Categories    NVARCHAR(255) NOT NULL
  
 
-  CONSTRAINT PK_Categories PRIMARY KEY
-   (category_id),
+  CONSTRAINT PK_Category PRIMARY KEY
+   (Category_id),
 );
 
 
 DROP TABLE IF EXISTS Textbook_Categories
 CREATE TABLE Textbook_Categories -- Many to Many relationship between textbooks and categories
 (
-  textbook_id  INT NOT NULL, 
-  category_id INT NOT NULL, 
+  Textbook_id  INT NOT NULL, 
+  Category_id INT NOT NULL, 
 
 
     CONSTRAINT PK_Textbook_Categories PRIMARY KEY
   (
-     textbook_id,
-     category_id
+     Textbook_id,
+     Category_id
   ),
 
   CONSTRAINT FK_Texbooks_Categories FOREIGN KEY
-  ( textbook_id )
+  ( Textbook_id )
        REFERENCES dbo.Textbooks
-        (textbook_id),
+        (Textbook_id),
 
   CONSTRAINT FK_Categories FOREIGN KEY
-  ( category_id )
-       REFERENCES dbo.Categories
+  ( Category_id )
+       REFERENCES dbo.Category
 );                                                      
 
 
 
 
-INSERT INTO TextbookPublishers (publisher_name, publisher_website)
+INSERT INTO Textbook_Publishers (Publisher_name, Publisher_website)
 VALUES 
 ('Microsoft Press','https://www.microsoftpressstore.com/'),
 ('Penguin Random House','https://www.penguinrandomhouse.com'),
@@ -118,7 +118,7 @@ VALUES
 
 
 
-INSERT INTO Textbooks (title, edition, isbn, published_date)
+INSERT INTO Textbooks (Title, Edition, Isbn, Published_date)
 VALUES
 ('Microsoft Visual C# Step by Step' ,'9th', 'ISBN-13: 978-1509307760','20180601'),
 ('T-SQL Fundamentals','3rd', 'ISBN-13: 978-1509302000','20160803'),
@@ -139,7 +139,7 @@ VALUES
 
 
 
-INSERT INTO Authors (first_name, last_name)
+INSERT INTO Authors (First_name, Last_name)
 VALUES
 ('John','Sharp'),
 ('TZIC','Ben-Gan'),
@@ -160,7 +160,7 @@ VALUES
 
 
 
-INSERT INTO Textbook_Authors (textbook_id, author_id)
+INSERT INTO Textbook_Authors (Textbook_id, Author_id)
 VALUES
 (1,1),
 (9,2),
@@ -171,7 +171,7 @@ VALUES
 (5,5),
 (10,5)
 
-INSERT INTO Categories (categories)
+INSERT INTO Category (Categories)
 VALUES
 ('Educational'),
 ('Educational'),
@@ -179,7 +179,7 @@ VALUES
 ('Self-Help'),
 ('Educational')
 
-INSERT INTO Textbook_Categories ( category_id, Textbook_id)
+INSERT INTO Textbook_Categories ( Category_id, Textbook_id)
 VALUES
 (1,1),
 (2,2),
@@ -188,4 +188,20 @@ VALUES
 (3,3),
 (4,4),
 (5,5)
+
+
+
+
+
+select * from Textbooks
+
+select * from Authors
+
+select * from Textbook_Publishers
+
+select * from Category
+
+
+
+
 
