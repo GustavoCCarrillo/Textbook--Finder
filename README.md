@@ -9,13 +9,15 @@
 
 - [Basic Connectivity](#bconnect)
 - [Database Diagrams](#dbdia)
+- [SQL Database Script](Project)
 - [Wire-Frames](#wf)
 - [UML Diagram](#umldia)
 - [User Stories](#userstory)
 - [Use Cases](#usecase)
 - [Requirements](#reqlist)
 - [Prototype](Prototype/README.prototype.md)
-- [SQL Database Script](Project)
+- [Project Files](Project)
+
 
 ***
 
@@ -36,6 +38,8 @@
 ---
 
 ![BooksDB pdf (1)](https://user-images.githubusercontent.com/20195657/89743017-fffaf900-da53-11ea-9fb1-be9eec73c353.png)
+
+![DatabaseDiagram](https://user-images.githubusercontent.com/20195657/93658619-118bd500-f9f2-11ea-84ed-86408270809c.png)
 
 *** 
 
