@@ -15,7 +15,7 @@
 - [Use Cases](#usecase)
 - [Requirements](#reqlist)
 - [Prototype](Prototype/README.prototype.md)
-- [SQL Database Script](Prototype/SQL Script)
+- [SQL Database Script](#SQL Script)
 
 ***
 
