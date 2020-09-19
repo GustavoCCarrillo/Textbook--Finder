@@ -9,7 +9,7 @@
 
 - [Basic Connectivity](#bconnect)
 - [Database Diagrams](#dbdia)
-- [SQL Database Script](Project/Database/SQL Script)
+- [SQL Database Script](Project/Database)
 - [Wire-Frames](#wf)
 - [UML Diagram](#umldia)
 - [User Stories](#userstory)
