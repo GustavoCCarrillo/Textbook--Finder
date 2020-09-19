@@ -1,0 +1,207 @@
+DROP DATABASE IF EXISTS TextbooksDB
+CREATE DATABASE TextbooksDB
+
+
+USE TextbooksDB
+
+
+DROP TABLE IF EXISTS Textbook_Puplishers
+CREATE TABLE Textbook_Publishers
+(
+  Publisher_id INT IDENTITY NOT NULL, 
+  Publisher_name NVARCHAR(200) NOT NULL,
+  Publisher_website NVARCHAR(MAX)
+
+  CONSTRAINT PK_Textbook_Publishers PRIMARY KEY 
+  (Publisher_id)
+
+);
+
+DROP TABLE IF EXISTS Textbooks
+CREATE TABLE Textbooks
+(
+  Textbook_id    INT IDENTITY NOT NULL, 
+  Title          NVARCHAR(200) NOT NULL, 
+  Edition        NVARCHAR(5),
+  Isbn           NVARCHAR(50) NULL, 
+  Published_date DATE NULL, 
+  Publisher_id   INT NULL, 
+
+  CONSTRAINT PK_Textbooks PRIMARY KEY CLUSTERED
+  (Textbook_id),
+
+  CONSTRAINT FK_Texbook_Publisher FOREIGN KEY
+  (Publisher_id) 
+        REFERENCES Textbook_Publishers(Publisher_id)
+);
+
+
+
+DROP TABLE IF EXISTS Authors
+CREATE TABLE Authors
+( 
+  Author_id   INT IDENTITY NOT NULL,
+  First_name  NVARCHAR(100) NOT NULL, 
+  Last_name   NVARCHAR(100) NULL,
+
+  CONSTRAINT PK_Authors PRIMARY KEY CLUSTERED
+  ( Author_id )
+);
+
+DROP TABLE IF EXISTS Textbook_Authors
+CREATE TABLE Textbook_Authors -- Many to Many relationship between textbooks and authors
+(
+  Textbook_id  INT NOT NULL, 
+  Author_id INT NOT NULL, 
+
+  CONSTRAINT PK_Textbook_Authors PRIMARY KEY
+  (
+     textbook_id,
+     author_id
+  ),
+
+  CONSTRAINT FK_Texbooks FOREIGN KEY
+  ( textbook_id )
+       REFERENCES dbo.Textbooks
+        (textbook_id),
+
+  CONSTRAINT FK_Author_id FOREIGN KEY
+  ( author_id )
+       REFERENCES dbo.Authors
+);	
+
+
+DROP TABLE IF EXISTS Category
+CREATE TABLE Category 
+(
+  Category_id   INT IDENTITY NOT NULL,
+  Categories    NVARCHAR(255) NOT NULL
+ 
+
+  CONSTRAINT PK_Category PRIMARY KEY
+   (Category_id),
+);
+
+
+DROP TABLE IF EXISTS Textbook_Categories
+CREATE TABLE Textbook_Categories -- Many to Many relationship between textbooks and categories
+(
+  Textbook_id  INT NOT NULL, 
+  Category_id INT NOT NULL, 
+
+
+    CONSTRAINT PK_Textbook_Categories PRIMARY KEY
+  (
+     Textbook_id,
+     Category_id
+  ),
+
+  CONSTRAINT FK_Texbooks_Categories FOREIGN KEY
+  ( Textbook_id )
+       REFERENCES dbo.Textbooks
+        (Textbook_id),
+
+  CONSTRAINT FK_Categories FOREIGN KEY
+  ( Category_id )
+       REFERENCES dbo.Category
+);                                                      
+
+
+
+
+INSERT INTO Textbook_Publishers (Publisher_name, Publisher_website)
+VALUES 
+('Microsoft Press','https://www.microsoftpressstore.com/'),
+('Penguin Random House','https://www.penguinrandomhouse.com'),
+('Ten Speed Press','https://crownpublishing.com/'),
+('Pearson Education','https://www.pearson.com/')
+
+
+
+INSERT INTO Textbooks (Title, Edition, Isbn, Published_date)
+VALUES
+('Microsoft Visual C# Step by Step' ,'9th', 'ISBN-13: 978-1509307760','20180601'),
+('T-SQL Fundamentals','3rd', 'ISBN-13: 978-1509302000','20160803'),
+('Lord of the Flies','4th','ISBN-13: 9780571295715','20120920'),
+('What color is your Parachute', '5th', 'ISBN-13: 978-0399581687','20180814'),
+('The Clean Coder', '1st', 'ISBN-13: 978-0137081073' ,'20110513'),
+('Computing machinery','24','ISBN-13: 9780571283715', '2009-03-22'),
+('XML: Visual QuickStart Guide','6','ISBN-13: 9780572183715','20090101'),
+('SQL Cookbook','5','ISBN-13: 978-1509305500','20051201'),
+('The Apollo Guidance Computer','3','ISBN-13: 978-1509302253','20100701'),
+('Minds and Computers','2nd','ISBN-13: 978-4509302060','20070213'),
+('The Architecture of Symbolic Computers','3rd','9780070000000','19901101'),
+('Master the Art of Handling Failure in Ruby','1st','ISBN-13: 778-1505302200', '20120204'),
+('Nmap Network Scanning','4','ISBN-13: 948-15093021245','20090101'),
+('The It Handbook for Business','1st','ISBN-13: 978-1504302045','20100917')
+
+
+
+
+
+INSERT INTO Authors (First_name, Last_name)
+VALUES
+('John','Sharp'),
+('TZIC','Ben-Gan'),
+('William','Golding'),
+('Richard', 'Bolles'),
+('Robert','Martin'),
+('Sanjoy','Dasgupta'),
+('Walter','Savitch'),
+('Uwe', 'Schöning'),
+('J.','Scott'),
+('George','Neville-Neil'),
+('Leon','Breedt'),
+('Donald','Norman'),
+('David','McFarland')
+
+
+
+
+
+
+INSERT INTO Textbook_Authors (Textbook_id, Author_id)
+VALUES
+(1,1),
+(9,2),
+(2,2),
+(3,4),
+(3,3),
+(4,4),
+(5,5),
+(10,5)
+
+INSERT INTO Category (Categories)
+VALUES
+('Educational'),
+('Educational'),
+('Fiction'),
+('Self-Help'),
+('Educational')
+
+INSERT INTO Textbook_Categories ( Category_id, Textbook_id)
+VALUES
+(1,1),
+(2,2),
+(4,7),
+(3,9),
+(3,3),
+(4,4),
+(5,5)
+
+
+
+
+
+select * from Textbooks
+
+select * from Authors
+
+select * from Textbook_Publishers
+
+select * from Category
+
+
+
+
+
